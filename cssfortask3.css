@@ -3,15 +3,28 @@
     background-color: rgb(129, 174, 219);
    border: 1px solid black;
    margin:auto;
+   display:flex;
+   position:relative;
+   justify-content: space-between;
+
 }
-h3 {font-size: 20px;
-margin-top: 0;
-;}
+   .main-info {
+    padding: 10px 0px 10px 15px;    
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   }
+
+
+h3 {font-size: 25px;
+    margin:0px;
+    padding:0px;
+}
+
 .close {height:10px;
 width: 10px;
-float: right;
 margin-right: 10px;
-margin-top: 5px;
+margin-top: 10px;
  }
  .date {margin-left: 20px;}
 .section {height: 600px;
@@ -21,15 +34,19 @@ margin-top: 5px;
     margin:auto;}
 .initial { border: 1px solid black;
     margin-left: 20px;
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    padding: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* text-align:center; */
+    /* line-height: 40px; */
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  
 background-color: rgb(129, 174, 219);}
 .maininfo { display: inline-block; vertical-align: top; text-align: left;}
 .container {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center; 
   }
